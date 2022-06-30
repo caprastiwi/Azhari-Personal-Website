@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Azhari's Portofolio</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="responsive.css">
+	<link rel="icon" type="image/x-icon" href="img/logo.png">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+</head>
+<body>
+<header>
+	<div class="container">
+        <div class="header-logo">
+        	<button class="profileBtn" onclick="openProfile()">
+        		azhari
+        	</button>
+        </div>
+        <span class="fa fa-bars menu-icon"></span>
+        <ul class="nav-bar">
+        	<li class="navActive"><a href="#banner">Home</a></li>
+			<li><a href="#about">About</a></li>
+			<li class="dropdown">
+				<button onclick="myFunction()" class="dropbtn" style="font-family: Caladea;">Project</button>
+				<div id="myDropdown" class="dropdown-content">
+					<a href="#project">Front End Development</a>
+					<a href="#project">Back End Developmen</a>
+					<a href="#project">UI/UX Design</a>
+				</div>
+			</li>
+			<li><a href="#contact">Contact</a></li>
+		</ul>
+	</div>
+</header>
+<main>
+<!-----Banner----->
+<article id="banner">
+	<div class="container">
+		<div class="banner-text">
+			<h3>Hello,</h3>
+			<h1>I'm Azhari</h1>
+			<h2>front end developer</h2>
+			<button class="bannerbtn">contact me</button>
+		</div>
+	</div>
+</article>
+<!-----About----->
+<article id="about">
+	<div class="container">
+	<div class="about-content">
+		<div class="about-text">
+			<h3>Hello,</h3>
+			<h1>I'm<span class="auto-type"></span></h1>
+			<p>Mahasiswi Sistem Informasi tingkat akhir yang memiliki minat tinggi dan kemampuan belajar yang baik, tertarik mempelajari Front End Development dan berkeinginan kuat untuk dapat berkontribusi secara langsung sebagai seorang Front End Developer.</p>
+		</div>
+		<div class="about-social">
+			<a href="https://twitter.com/Azhprstw"><i class="fab fa-twitter"></i></a>
+			<a href="https://instagram.com/xyzhaphire"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+			<a href="https://linkedin.com/in/caprastiwi"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+			<a href="https://github.com/caprastiwi"><i class="fab fa-github" aria-hidden="true"></i></a>
+		</div>
+	</div>
+</article>
+<!-----Qualification----->
+<article id="qualific">
+	<h1>Qualification</h1>
+	<div class="qua-content">
+		<div id="quaBtn1" class="qua-item">
+			<div class="qua-icon">
+				<i class="fas fa-code" aria-hidden="true"></i>
+			</div>
+			<h3>front end dev</h3>
+			<p>Melakukan layouting tampilan Front End</p>
+		</div>
+		<div id="quaBtn2" class="qua-item">
+			<div class="qua-icon">
+				<i class="fas fa-server" aria-hidden="true"></i>
+			</div>
+			<h3>back end dev</h3>
+			<p>Membangun Back End dengan Rest API</p>
+		</div>
+		<div id="quaBtn3" class="qua-item">
+			<div class="qua-icon">
+				<i class="fas fa-desktop" aria-hidden="true"></i>
+			</div>
+			<h3>UI/UX design</h3>
+			<p>Merancang tampilan UI/UX sebuah website</p>
+		</div>
+		<div id="quaBtn4" class="qua-item">
+			<div class="qua-icon">
+				<i class="fas fa-layer-group" aria-hidden="true"></i>
+			</div>
+			<h3>graphic design</h3>
+			<p>Membuat rancangan dan konsep visual grafis</p>
+		</div>
+
+		<!-- The Modal -->
+		<div id="quaModal1" class="modal">
+			<!-- Modal Content -->
+			<div class="modal-content">
+				<div class="modal-header">
+					<span class="quaClose1">&times;</span>
+					<h2>Front End Development</h2>
+				</div>
+				<div class="modal-body">
+					<ul>
+						<li><i class="fab fa-html5"></i>HTML</li>
+						<li><i class="fab fa-css3-alt"></i>CSS</li>
+						<li><i class="fab fa-js"></i>JavaScript</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="quaModal2" class="modal">
+			<!-- Modal Content -->
+			<div class="modal-content">
+				<div class="modal-header">
+					<span class="quaClose2">&times;</span>
+					<h2>Back End Development</h2>
+				</div>
+				<div class="modal-body">
+					<ul>
+						<li><i class="fas fa-database"></i>MySQL</li>
+						<li><i class="fab fa-node-js"></i>NodeJS</li>
+						<li><i class="fab fa-npm"></i>NPM</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="quaModal3" class="modal">
+			<!-- Modal Content -->
+			<div class="modal-content small">
+				<div class="modal-header">
+					<span class="quaClose3">&times;</span>
+					<h2>UI/UX Design</h2>
+				</div>
+				<div class="modal-body">
+					<ul>
+						<li><i class="fab fa-figma"></i>Figma</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="quaModal4" class="modal">
+			<!-- Modal Content -->
+			<div class="modal-content small">
+				<div class="modal-header">
+					<span class="quaClose4">&times;</span>
+					<h2>Graphic Design</h2>
+				</div>
+				<div class="modal-body">
+					<ul>
+						<li><img src="img/adobe-illustrator.png"><a>Adobe Illustrator</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</article>
+<!-----Project----->
+<article id="project">
+	<h1>Project</h1>
+	<div class="project-container">
+		<div id="projectBtn">
+			<button class="project-btn projectActive" onclick="filterSelection('all')">All</button>
+			<button class="project-btn" onclick="filterSelection('frontEnd')">Front End</button>
+			<button class="project-btn" onclick="filterSelection('backEnd')">Back End</button>
+			<button class="project-btn" onclick="filterSelection('design')">UI/UX Design</button>
+		</div>
+		<div class="row">
+			<div class="column frontEnd">
+  				<div class="project-content">
+   					<img src="img/project1.png" style="width: 100%;">
+   					<div class="project-text">
+   			   			<h3>Azhari's Portofolio</h3>
+   			   			<p>Mendesign landing page website personal sebagai portofolio untuk menyimpan hasil karya yang dibuat.</p>
+   			   			<span>22/06/23</span>
+   			   		</div>
+   			   	</div>
+   			</div>
+   			<div class="column frontEnd">
+  				<div class="project-content">
+   					<img src="img/project2.png" style="width: 100%;">
+   					<div class="project-text">
+   			   			<h3>Wisata Indonesia</h3>
+   			   			<p>Membuat team section untuk project tim membuat landing page website  bertema pariwisata.</p>
+   			   			<span>22/03/16</span>
+   			   		</div>
+   			   	</div>
+   			</div>
+   			<div class="column frontEnd">
+  				<div class="project-content">
+   					<img src="img/project3.png" style="width: 100%;">
+   					<div class="project-text">
+   			   			<h3>To Do List App</h3>
+   			   			<p>Membuat aplikasi to do list di website menggunakan react js yang dapat menjalankan fungsi CRUD.</p>
+   			   			<span>22/03/16</span>
+   			   		</div>
+   			   	</div>
+   			</div>
+   			<div class="column backEnd">
+  				<div class="project-content">
+   					<img src="img/project4.png" style="width: 100%;">
+   					<div class="project-text">
+   			   			<h3>Bookshelf API</h3>
+   			   			<p>Membangun aplikasi back end Bookshelf yang dapat menjalankan fungsi CRUD dengan node js.</p>
+   			   			<span>22/03/11</span>
+   			   		</div>
+   			   	</div>
+   			</div>
+   			<div class="column design">
+  				<div class="project-content">
+   					<img src="img/project5.png" style="width: 100%;">
+   					<div class="project-text">
+   			   			<h3>Project Page</h3>
+   			   			<p>Memndesign tampilan UI sebuah website Project Page sebagai bagian dari Azhari's Personal Website.</p>
+   			   			<span>22/05/23</span>
+   			   		</div>
+   			   	</div>
+   			</div>
+   			<div class="column design">
+  				<div class="project-content">
+   					<img src="img/project6.png" style="width: 100%;">
+   					<div class="project-text">
+   			   			<h3>Azhari's Landing Page</h3>
+   			   			<p>Membuat konsep design UI dan UX landing page untuk Azhari's Personal Website.</p>
+   			   			<span>22/05/20</span>
+   			   		</div>
+   			   	</div>
+   			</div>
+   		</div>
+   	</div>
+</article>
+<!-----Contact----->
+<article id="contact">
+	<h1>Contact Me</h1>
+	<div class="contact-content">
+		<div class="contact-left">
+			<div class="contact-item">
+				<a class="contact-icon"><i class="fas fa-at"></i></a>
+				<h5>Email</h5>
+				<p>caprastiwi@gmail.com</p>
+			</div>
+			<div class="contact-item">
+				<a class="contact-icon"><i class="fab fa-whatsapp"></i></a>
+				<h5>WhatsApp</h5>
+				<p>(+62) 858-3936-5384</p>
+			</div>
+			<div class="contact-item">
+				<a class="contact-icon"><i class="fab fa-linkedin-in"></i></a>
+				<h5>LinkedIn</h5>
+				<p>caprastiwi</p>
+			</div>
+		</div>
+		<div class="contact-right">
+			<form action="/action_page.php">
+				<label for="name">Name</label>
+				<input type="text" id="contactName" name="name" placeholder="Your name">
+				
+				<label for="email">Email</label>
+				<input type="text" id="contactEmail" name="email" placeholder="Email address">
+				
+				<label for="phone">Phone</label>
+				<input type="text" id="contactPhone" name="phone" placeholder="Phone number">
+				
+				<label for="message">Message</label>
+				<textarea id="contactMessage" name="message" placeholder="Write something.." style="height:170px"></textarea>
+				
+				<input type="submit" value="Send">
+			</form>
+		</div>
+	</div>
+</article>
+<!-----Aside - Profile----->
+<aside id="profileAside" >
+	<a href="javascript:void(0)" class="closebtn" onclick="closeAside()">&times;</a>
+	<div class="profile-content">
+		<div class="profile-img">
+			<img src="img/profil.jpg">
+		</div>
+		<div class="profile-body">
+			<p>Name</p>
+			<h3>Chairunnisyah Azhari Prastiwi</h3>
+			<p>E-Mail</p>
+			<h3>caprastiwi@gmail.com</h3>
+			<p>Domisili</p>
+			<h3>Kab. Bekasi, Jawa Barat</h3>
+		</div>
+		<div class="profile-footer">
+			<p>my interest</p>
+			<a class="tooltip"><i class="fas fa-film"><span class="tooltipText">Watch a movie</span></i></a>
+             <a class="tooltip"><i class="fas fa-music"><span class="tooltipText">Listen a music</span></i></a>
+             <a class="tooltip"><i class="fas fa-book"><span class="tooltipText">Read a book</span></i></a>
+             <a class="tooltip"><i class="fas fa-swimming-pool"><span class="tooltipText">Swimming</span></i></a>
+		</div>
+	</div>
+</aside>
+</main>
+<footer>
+	<div class="footer-head">
+		<h1>Azhari</h1>
+		<p>Front End Developer</p>
+	</div>
+	<div class="footer-content">
+		<h3>All I wanna do is, <span>FLY HIGH!</span></h3>
+		<ul class="footer-social">
+			<li><a href="https://twitter.com/Azhprstw"><i class="fab fa-twitter"></i></a></li>
+			<li><a href="https://instagram.com/xyzhaphire"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+			<li><a href="https://linkedin.com/in/caprastiwi"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
+		</ul>
+		<p>copyright &copy;2022 <span>Azhari</span> hak cipta dilindungi undang-undang</p>
+	</div>
+</footer>
+
+
+<!-----JS----->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script type="text/javascript" src="script.js"></script>
+<!-----JS Article (SliderContent)----->
+</body>

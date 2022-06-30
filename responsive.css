@@ -1,0 +1,112 @@
+/*-----Layout for Tablet-----*/
+@media (max-width: 1000px) {
+	/*---Header - Nav---*/
+	.nav-bar {
+		display: none;
+	}
+	span.menu-icon {
+		display: block;
+	}
+
+	/*---Banner---*/
+	#banner {
+		height: 60vh;
+	}
+	.banner-text {
+		top: 23%;
+	}
+	.banner-text h1 {
+		font-size: 32px;
+	}
+	.banner-text h2 {
+		font-size: 28px;
+	}
+	.banner-text h3 {
+		font-size: 24px;
+	}
+
+	/*---About---*/
+	#about {
+		height: 100%;
+		padding: 50px 0;
+		background-color: #151515;
+	}
+	.about-content {
+		width: 93%;
+		padding-top: 0;
+		padding-left: 42%;
+	}
+	.about-text h1 {
+		padding: 5px 0 10px;
+		font-size: 22px;
+	}
+	.about-text h3 {
+		display: none;
+	}
+	.about-text p {
+		font-size: 16px;
+		line-height: 20px;
+	}
+	.about-social {
+		padding-top: 5px;
+	}
+	.about-social a {
+		margin: 0 5px;
+		padding: 8.5px 5px;
+		font-size: 20px;
+	}
+
+	/*---Qualification---*/
+	#qualific {
+		padding-bottom: 40px;
+	}
+	.qua-content {
+		width: 100%;
+		flex-wrap: wrap;
+	}
+	.qua-item {
+		margin-bottom: 10px;
+	}
+	.modal-content {
+		width: 65%;
+	}
+
+	/*---Project---*/
+	#project {
+		padding: 50px 0;
+	}
+	.project-container {
+		padding: 35px;
+	}
+	.row {
+		padding: 0;
+	}
+	.column {
+		width: 45%;
+	}
+
+	/*---Contact---*/
+	#contact {
+		padding: 20px 55px;
+	}
+	.contact-left {
+		display: none;
+	}
+	.contact-right, .contact-right form {
+		width: 100%;
+	}
+	.contact-right input[type=submit] {
+		margin-bottom: 50px;
+	}
+
+	/*-----Footer-----*/
+	.footer-head p {
+		font-size: 16px;
+	}
+	.footer-content {
+	}
+}
+
+/*-----Layout for Smartphone-----*/
+@media all and (max-width: 670px) {
+}
